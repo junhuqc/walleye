@@ -17,3 +17,16 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:walleye]]
         end
+
+
+
+
+## Tutorial
+
+### Init the project
+
+```bash
+$ mix new walleye
+$ cd walleye
+$ git init
+```
