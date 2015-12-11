@@ -1,0 +1,8 @@
+---
+
+walleye_data:
+  image: ubuntu:latest
+  
+walleye_db:
+  image: postgres:9.4.5
+  volumes_from: walleye_data
