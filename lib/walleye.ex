@@ -1,2 +1,0 @@
-defmodule Walleye do
-end
