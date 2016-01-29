@@ -1,0 +1,5 @@
+deploy:  
+  provider: script
+  script: scripts/hex.sh
+  on:
+    tags: true
