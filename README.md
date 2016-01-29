@@ -1,3 +1,5 @@
+![travis](https://travis-ci.org/junhuqc/walleye.svg?branch=master)
+
 walleye
 =================
 
