@@ -1,3 +1,7 @@
+language: erlang
+otp_release:
+  - 18.2
+
 deploy:  
   provider: script
   script: scripts/hex.sh
