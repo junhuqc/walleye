@@ -7,8 +7,9 @@ script: "./rebar3 dialyzer"
 cache:
   directories:
   - $HOME/.cache/rebar3/
-deploy:
-  provider: script
-  script: scripts/hex.sh
-  on:
-    tags: true
+
+#deploy:
+#  provider: script
+#  script: scripts/hex.sh
+#  on:
+#    tags: true
