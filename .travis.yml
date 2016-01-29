@@ -1,8 +1,13 @@
+sudo: false
 language: erlang
 otp_release:
   - 18.2
-
-deploy:  
+before_script: "./rebar3 update"
+script: "./rebar3 dialyzer"
+cache:
+  directories:
+  - $HOME/.cache/rebar3/
+deploy:
   provider: script
   script: scripts/hex.sh
   on:
