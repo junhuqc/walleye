@@ -3,6 +3,12 @@
 walleye
 =================
 
+## TODO:
+
+1. [ ] add travis CI
+
+
+
 An OTP application, this application is my warm up for learning Erlang. May contain many naive design choice.
 
 ## Build
