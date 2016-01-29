@@ -5,7 +5,7 @@ walleye
 
 ## TODO:
 
-1. [ ] add travis CI
+1. [x] add travis CI
 
 
 
