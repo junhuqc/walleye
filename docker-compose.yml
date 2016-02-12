@@ -20,3 +20,10 @@ walleye:
   volumes:
     - .:/home/walleye
   command: tail -f /dev/null
+
+document:
+  container_name: walleyeDoc
+  image: jekyll/jekyll:3.0.2
+  volumes:
+    - doc:/home/doc
+  command: tail -f /dev/null
