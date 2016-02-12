@@ -16,7 +16,7 @@
 
 walleye:
   container_name: walleye
-  image: golang:1.5.1
+  image: erlang
   volumes:
     - .:/home/walleye
   command: tail -f /dev/null
